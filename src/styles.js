@@ -58,6 +58,7 @@ export default makeStyles((theme) => ({
     display: 'flex',
     justifyContent: 'space-around',
     fontFamily:'Lucida Console , Helvetica , serif',
+    textAlign:'center',
     alignItems: 'center',
     width: '100%',
     [theme.breakpoints.down('sm')]: {
