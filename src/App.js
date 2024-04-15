@@ -12,7 +12,7 @@ const App = () => {
 
   useEffect(() => {
     alanBtn({
-      key: 'cd954e7f2eb735aee9865a647f9e9f672e956eca572e1d8b807a3e2338fdd0dc/stage',
+      key: process.env.REACT_APP_SDK_ALAN,
       onCommand: ({ command, articles, number }) => {
         if (command === 'newHeadlines') {
           setNewsArticles(articles);
